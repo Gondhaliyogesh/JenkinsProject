@@ -7,7 +7,7 @@
         <methods>
           <include name="launch"/>
           <include name="close"/>
-          <include name="login"/>
+          <include name="logo1"/>
         </methods>
       </class> <!-- fb.facebookTest.FacebookloginTest -->
     </classes>

@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="141082" started-at="2018-09-19T06:07:14Z" finished-at="2018-09-19T06:09:35Z">
+  <suite name="Default suite" duration-ms="63328" started-at="2018-09-19T11:06:12Z" finished-at="2018-09-19T11:07:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="141082" started-at="2018-09-19T06:07:14Z" finished-at="2018-09-19T06:09:35Z">
+    <test name="Default test" duration-ms="63328" started-at="2018-09-19T11:06:12Z" finished-at="2018-09-19T11:07:16Z">
       <class name="fb.facebookTest.FacebookloginTest">
-        <test-method status="PASS" signature="launch()[pri:0, instance:fb.facebookTest.FacebookloginTest@ae45eb6]" name="launch" is-config="true" duration-ms="89888" started-at="2018-09-19T06:07:14Z" finished-at="2018-09-19T06:08:44Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:fb.facebookTest.FacebookloginTest@ae45eb6]" name="launch" is-config="true" duration-ms="24571" started-at="2018-09-19T11:06:12Z" finished-at="2018-09-19T11:06:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="login()[pri:0, instance:fb.facebookTest.FacebookloginTest@ae45eb6]" name="login" duration-ms="48721" started-at="2018-09-19T06:08:44Z" finished-at="2018-09-19T06:09:33Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:fb.facebookTest.FacebookloginTest@ae45eb6]" name="login" duration-ms="9848" started-at="2018-09-19T11:06:37Z" finished-at="2018-09-19T11:06:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:fb.facebookTest.FacebookloginTest@ae45eb6]" name="close" is-config="true" duration-ms="2237" started-at="2018-09-19T06:09:33Z" finished-at="2018-09-19T06:09:35Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:fb.facebookTest.FacebookloginTest@ae45eb6]" name="close" is-config="true" duration-ms="1313" started-at="2018-09-19T11:06:47Z" finished-at="2018-09-19T11:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:fb.facebookTest.FacebookloginTest@ae45eb6]" name="launch" is-config="true" duration-ms="26658" started-at="2018-09-19T11:06:48Z" finished-at="2018-09-19T11:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="logo1()[pri:2, instance:fb.facebookTest.FacebookloginTest@ae45eb6]" name="logo1" duration-ms="744" started-at="2018-09-19T11:07:15Z" finished-at="2018-09-19T11:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:fb.facebookTest.FacebookloginTest@ae45eb6]" name="close" is-config="true" duration-ms="97" started-at="2018-09-19T11:07:16Z" finished-at="2018-09-19T11:07:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

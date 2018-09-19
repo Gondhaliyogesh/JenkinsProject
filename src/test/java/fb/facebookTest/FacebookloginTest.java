@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 public class FacebookloginTest 
 {
 	WebDriver driver;
+	Facebookloginpage fbl;
 	
 	@BeforeMethod
 	public void launch()
@@ -18,19 +19,26 @@ public class FacebookloginTest
 		System.setProperty("webdriver.chrome.driver", "F:\\MyFrameworks\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		
 		driver.manage().deleteAllCookies();
 		driver.get("https://www.facebook.com/");
 		
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void login()
 	{
 		
-		Facebookloginpage fbl=new Facebookloginpage(driver);
+		fbl=new Facebookloginpage(driver);
 		fbl.log();
+	}
+	@Test(priority=2)
+	public void logo1() 
+	{
+		fbl=new Facebookloginpage(driver);
+		boolean flag=fbl.logo();
+		System.out.println(flag);
+	
 		
 	}
 	

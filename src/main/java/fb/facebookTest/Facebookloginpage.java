@@ -18,7 +18,7 @@ public class Facebookloginpage
 	@FindBy(xpath="//input[@type='submit']")
 	private WebElement login_btn;
 	
-	@FindBy(xpath="//i[@class='fb_logo img sp_TqdTTRwIEat sx_59d053']")
+	@FindBy(xpath=".//*[@id='blueBarDOMInspector']/div/div/div/div[1]/h1/a/i")
 	private WebElement fblogo;
 	
 	
@@ -33,6 +33,11 @@ public class Facebookloginpage
 		uname.sendKeys("ABC");
 		passwd.sendKeys("ABC");
 		login_btn.click();
+	}
+	public boolean logo()
+	{
+		return fblogo.isDisplayed();
+		
 	}
 	
 	
